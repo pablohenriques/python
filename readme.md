@@ -1,0 +1,3 @@
+# Repositório: Projeto em Python
+---
+Este repositório é exclusivo para projetos desenvolvidos com a linguagem de programção Python. Projetos de diversas áreas da computação (IA e outros) estarão armazenados aqui. Para cada projeto haverá uma ***branch*** e uma **documentação** (arquivo `readme.md`) que auxiliará você (desenvolvedor) na utilização dos aquivos na *branch*. Este repositório é livre para modificações, reutilização de códigos e sugestões. Por fim, divirta-se :) .  
