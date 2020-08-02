@@ -1,7 +1,7 @@
-# Lista de Exercícios em Python
+# Exercícios em Python
 ---
 
-Este repositório contém  exercícios resolvidos com a linguagem Python. Os exercícios estão separados por assunto e em cada exercício há uma descrição sobre o problema resolvido. Tópicos abordados neste respositório:
+Esta *branch* contém  exercícios resolvidos com a linguagem Python. Os exercícios estão separados por assunto e em cada exercício há uma descrição sobre o problema resolvido. Tópicos abordados aqui são:
 
 - `Estrutura básica`
 - `Estrutura de decisão (if/else)`
@@ -10,7 +10,7 @@ Este repositório contém  exercícios resolvidos com a linguagem Python. Os exe
 - `Vetor (matriz unidimensional)`
 - `Matrizes (bidimensionais)`
 
-Neste respositório só há exercícios que trabalham a programação estruturada e podem ser executados a partir da versão 3.x do Python.
+Nesta *branch* só há exercícios que trabalham a programação estruturada e podem ser executados a partir da versão 3.x do Python.
 
 
 
