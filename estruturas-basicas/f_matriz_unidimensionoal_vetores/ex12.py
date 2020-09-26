@@ -5,38 +5,23 @@
     pares de A em suas posições ímpares e os valores das posições
     ímpares de A em suas posições pares.
 '''
+tam = 10
+
 vetor_a = []
 vetor_b = []
 
-vet_par = []
-vet_impar = []
-
-tam = 5
-aux = 0
-
-for i in range(tam):
-    elemento = int(input(f'Informe um número para o vetor[{i}]: '))
-    vetor_a.append(elemento)
-
-for index in range(tam):
-  if index % 2 == 0:
-    vet_par.append(vetor_a[index])
-  else:
-    vet_impar.append(vetor_a[index])
 
 for indice in range(tam):
+  elemento = int(input('Informe um elemento:'))
+  vetor_a.append(elemento)
+  vetor_b.append(elemento)
+
+print(f'Vetor "a": {vetor_a}')
+print(f'Vetor "b": {vetor_b}')
+
+for indice in range(tam-1):
   if indice % 2 == 0:
-    vetor_b.append(vet_impar[indice])
-  elif indice % 2 != 0:
-    vetor_b.append(vet_par[indice])
-  #else:
-  #  vetor_b.append[vetor_a[index]]
+    vetor_b[indice] = vetor_a[indice+1]
+    vetor_b[indice+1] = vetor_a[indice]
 
-
-print(f'\nVetor par: {vet_par}')
-print(f'\nVetor impar: {vet_impar}')
-
-print(f"\nVetor a: {vetor_a}")
-print(f"\nVetor b: {vetor_b}")
-
-
+print(f'\nVetor "b": {vetor_b}')
