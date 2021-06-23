@@ -18,3 +18,7 @@ class TestExercicio07(unittest.TestCase):
     def test_caso_02(self):
         menor_valor = vertificar_maior_numero(10, 1, 5)[1]
         self.assertEqual(menor_valor, 1)
+
+
+if __name__ == "__main":
+    unittest.main()
